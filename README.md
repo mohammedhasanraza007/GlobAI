@@ -1,6 +1,6 @@
 # GlobAI: The Ultimate Local AI Desktop Assistant
 
-![GlobAI Logo](ui/icon.png)
+![GlobAI Logo](/GlobAI/main/assets/icon.png)
 
 GlobAI is a high-performance, **fully offline-capable** desktop assistant designed for privacy-conscious developers and power users. Built with PyQt6 and optimized for Windows, it integrates **Hybrid RAG**, **Coding Assistance**, and **Image Generation** into a single, portable application.
 
@@ -23,14 +23,17 @@ In a world of cloud-dependent AI, GlobAI offers a unique **CPU-first, Local-firs
 
 ## 📸 Real UI in Action
 
-| RAG Mode (Chat) | Coder Mode |
-| :---: | :---: |
-| ![RAG Mode](assets/screenshots/rag_mode.png) | ![Coder Mode](assets/screenshots/coder_mode.png) |
+### RAG Mode (Chat)
+![RAG Mode](https://raw.githubusercontent.com/mohammedhasanraza007/GlobAI/main/assets/screenshots/rag_mode.png)
 
-| Image Generation | Settings & Control |
-| :---: | :---: |
-| ![Image Generation](assets/screenshots/image_mode.png) | ![Settings Panel](assets/screenshots/settings_panel.png) |
+### Coder Mode
+![Coder Mode](https://raw.githubusercontent.com/mohammedhasanraza007/GlobAI/main/assets/screenshots/coder_mode.png)
 
+### Image Generation
+![Image Generation](https://raw.githubusercontent.com/mohammedhasanraza007/GlobAI/main/assets/screenshots/image_mode.png)
+
+### Settings & Control
+![Settings Panel](https://raw.githubusercontent.com/mohammedhasanraza007/GlobAI/main/assets/screenshots/settings_panel.png)
 ---
 
 ## 🚀 Getting Started
