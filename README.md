@@ -26,16 +26,16 @@ In a world of cloud-dependent AI, GlobAI offers a unique **CPU-first, Local-firs
 ## 📸 Real UI in Action
 
 ### RAG Mode (Chat)
-![RAG Mode](GlobAI/assets/screenshots/rag_mode.PNG)
+![RAG Mode](GlobAI/assets/screenshots/rag_mode.png)
 
 ### Coder Mode
-![Coder Mode](GlobAI/assets/screenshots/coder_mode.PNG)
+![Coder Mode](GlobAI/assets/screenshots/coder_mode.png)
 
 ### Image Generation
-![Image Generation](GlobAI/assets/screenshots/image_mode.PNG)
+![Image Generation](GlobAI/assets/screenshots/image_mode.png)
 
 ### Settings & Control
-![Settings Panel](GlobAI/assets/screenshots/settings_panel.PNG)
+![Settings Panel](GlobAI/assets/screenshots/settings_panel.png)
 ---
 
 ## 🚀 Getting Started
