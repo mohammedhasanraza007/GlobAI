@@ -21,7 +21,6 @@ In a world of cloud-dependent AI, GlobAI offers a unique **CPU-first, Local-firs
 
 ---
 
-## 📸 Real UI in Action
 
 ## 📸 Real UI in Action
 
