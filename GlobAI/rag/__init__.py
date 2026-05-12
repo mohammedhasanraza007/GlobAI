@@ -1,0 +1,2 @@
+"""Isolated RAG subsystem."""
+

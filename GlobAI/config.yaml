@@ -1,0 +1,61 @@
+# ============================================================
+# GlobAI - production-safe local configuration
+# ============================================================
+
+# Runtime is offline by default. Run scripts/download_models.py manually while
+# online if a local model is missing. Normal startup never downloads models.
+offline_mode: true
+
+# Device: auto | cuda | directml | cpu
+# auto resolves in priority order: CUDA -> DirectML -> CPU.
+device: auto
+llm_device: auto
+embedding_device: cpu
+
+# Local model IDs. Keep the LLM small for 16 GB RAM stability.
+model_id: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+coder_model_id: "Qwen/Qwen2.5-Coder-0.5B-Instruct"
+embedding_id: "sentence-transformers/all-MiniLM-L6-v2"
+embedding_dimension: 384
+cache_dir: "model_checkpoints"
+
+# Startup only checks model_checkpoints/{embeddings,rag,coder,sd}.
+# Missing models are reported; no runtime auto-download is attempted.
+
+# Image mode remains unloaded until load_sd_model("sd1.5") is called.
+# SD1.5 uses one checkpoint only:
+# model_checkpoints/sd/sd15.safetensors
+image_model_id: "sd1.5"
+image_device: cpu
+
+# Inference
+max_tokens: 384
+coder_max_tokens: 384
+coder_generation_timeout: 45
+max_input_tokens: 1536
+temperature: 0.0
+keep_model_loaded: true
+unload_on_memory_pressure: true
+ram_pressure_limit_pct: 88
+
+# Retrieval
+vector_db: "data/vector_db"
+similarity_threshold: 0.24
+top_k: 3
+candidate_k: 10
+max_context_chars: 6000
+
+# Memory-bounded storage
+max_vector_budget: 5000
+dedupe_similarity_threshold: 0.97
+vector_dedupe_window: 128
+embedding_batch_size: 16
+
+# Document limits
+chunk_size: 220
+chunk_overlap: 40
+max_document_chars: 2000000
+max_file_bytes: 25000000
+max_pdf_pages: 250
+max_pptx_slides: 250
+max_docx_paragraphs: 5000

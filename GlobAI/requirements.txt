@@ -1,0 +1,29 @@
+# GlobAI runtime dependencies
+# Python 3.10.x or 3.11.x required for torch-directml wheels.
+
+torch==2.3.1
+torch-directml==0.2.4.dev240815
+
+transformers==4.40.2
+accelerate==0.29.3
+sentence-transformers==2.6.1
+sentencepiece==0.2.0
+safetensors==0.4.2
+huggingface_hub==0.22.2
+diffusers==0.27.2
+Pillow==10.3.0
+
+faiss-cpu==1.7.4
+rank_bm25==0.2.2
+
+pymupdf==1.24.2
+pypdf==4.1.0
+python-docx==1.1.0
+python-pptx==0.6.23
+
+numpy==1.26.4
+pandas==2.0.3
+scikit-learn==1.4.2
+psutil==5.9.8
+pyyaml==6.0.1
+PyQt6==6.7.0
